@@ -15,33 +15,42 @@
 <body>
 
     <header>
-        <div class="container">
-            <div>Taral Industries Private Limited</div>
-            <div>
-                <a href="tel:+919930604477" class="">+91 99306 04477<i class="fa fa-phone"></i></a>
-                <a href="mailto:info@taralcorporation.com">info@taralcorporation.com<i class="fa fa-envelope-open"></i></a>
+        <div class="container-fluid">
+            <div class="row d-flex align-items-center justify-content-between">
+                <div class="col-12 offset-xl-1 col-xl-3">Taral Industries Private Limited</div>
+                <div class="col-12 offset-xl-2 col-xl-4">
+                    <a href="tel:+919930604477">+91 99306 04477<i class="fa fa-phone"></i></a>
+                    <a href="mailto:info@taralcorporation.com">info@taralcorporation.com<i class="fa fa-envelope-open"></i></a>
+                </div>
             </div>
         </div>
     </header>
 
-    <nav>
-        <div class="container d-flex justify-content-between align-items-center">
-            <div class="logo">
-                <img src="./Static/images/logo.png" alt="logo">
-            </div>
-            <div style="width: 60%;" class="d-flex justify-content-between align-items-center">
-                <div>
-                    <a href="#" class="active">Home</a>
-                    <a href="#">About us</a>
-                    <a href="#">Products</a>
-                    <a href="#">Contact</a>
-                </div>
-                <div>
-                    <button class="btn btn-success" href="#">REGISTER</button>
-                </div>
-            </div>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand offset-xl-1" href="#"><img src="./Static/images/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse offset-xl-5 col-xl-4" id="navbarNav">
+          <ul class="navbar-nav d-flex align-items-center">
+            <li class="nav-item active">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-link">
+                <button class="btn btn-success">REGISTER</button>
+            </li>
+          </ul>
         </div>
-    </nav>
+      </nav>
 
     <div id="slideshow" class="carousel slide" data-ride="carousel" data-wrap="true">
         <div class="carousel-inner">
@@ -76,13 +85,15 @@
             <span class="sr-only">Next</span>
         </a>
         <div class="container overlay">
-            THINK<br>GLOBAL<br>
-            <span class="caption">Taral Corporation experts in global Sourcing</span>
-            <div class="extras offset-xl-2">
-                <button class="btn-success">LEARN MORE</button>
-                <img src="./Static/images/icons/icon-1.png">
-                <img src="./Static/images/icons/icon-3.png">
-                <img src="./Static/images/icons/icon-6.png">
+            <div class="d-none d-xl-block">
+                THINK<br>GLOBAL<br>
+                <span class="caption">Taral Corporation experts in global Sourcing</span>
+                <div class="extras offset-xl-2">
+                    <button class="btn-success">LEARN MORE</button>
+                    <img src="./Static/images/icons/icon-1.png">
+                    <img src="./Static/images/icons/icon-3.png">
+                    <img src="./Static/images/icons/icon-6.png">
+            </div>
             </div>
         </div>
     </div>
@@ -90,23 +101,23 @@
     <div class="details">
         <div class="container">
             <div class="row">
-                <div class="col-xl-6 dark">
+                <div class="col-12 col-xl-6 dark">
                     <span class="title">Taral Corporation Pvt. Ltd.</span><br>
                     A 20 year old Enterprise with a network spread across 10 countries
                 </div>
-                <div class="col-xl-6">
+                <div class="col-12 col-xl-6">
                     <img src="./Static/images/resource/innovator.jpg" alt="">
                 </div>
                 </div>
                 <div class="row">
-                    <div class="col-xl-6">
+                    <div class="col col-xl-6">
                         <div class="figures">
                             <div class="nums"><span class="active">10+</span><br>Years Experience</div>
                             <div class="nums" id="mid"><span class="active">36</span><br> Industries Served</div>
                             <div class="nums"><span class="active">20</span><br>Products</div>
                         </div>
                     </div>
-                    <div class="col-xl-6">
+                    <div class="col col-xl-6">
                         <img src="./Static/images/resource/22.jpg" alt="">
                     </div>
                 </div>
@@ -224,7 +235,7 @@
                     </div>
                 </div>
                 <div class="col-xl-12">
-                    <div class="banner d-flex justify-content-between">
+                    <div class="banner d-flex align-items-center justify-content-between">
                         <h1>Want to grow your bussiness globally?</h1>
                         <button class="btn btn-light">Register</button>
                     </div>
@@ -234,7 +245,6 @@
     </div>
     
     <footer>
-
         <div class="container">
             <div class="row">
                 <div class="col-xl-4">
@@ -259,10 +269,8 @@
                     <address>511, Sanket Heights, Near Akshar Chowk,<br>
                         Sunpharma Road Corner, Atladra, Vadodara -<br> 390012.<br>
                         Gujarat, India</address>
-    
                 </div>
             </div>
-            
         </div>
     </footer>
     <hr>
