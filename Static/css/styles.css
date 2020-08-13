@@ -1,0 +1,183 @@
+
+header a, header a:hover {
+    color: whitesmoke;
+    text-decoration: none;
+}
+header {
+    background-color: navy;
+    color: whitesmoke;
+    padding: 15px;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .container  i {
+    color: yellowgreen;
+    padding: 10px;
+}
+.active, .active:hover {
+    color: yellowgreen;
+}
+nav .container {
+    font-size: 20px;
+    font-weight: 500;
+    height: 100px;
+}
+nav a,nav a:hover {
+    color: black;
+    padding: 50px 20px;
+}
+.btn-success {
+    background-color: yellowgreen;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;   
+}
+.carousel .carousel-inner{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+.slideshow {
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    font-size: 70px;
+    font-weight: 500;
+    line-height: 70px;
+    color: whitesmoke;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.overlay .caption {
+    font-size: 40px;
+    font-weight: lighter;
+}
+.extras {
+    display: flex;
+    align-items: center;
+}
+.extras .btn-success{
+    padding: 0px 20px;
+    line-height: 50px;
+    margin-right: 10px;
+}
+.extras img {
+    height: 50px;
+}
+.details .row .dark{
+    font-size: 45px;
+    font-weight: bold;
+    color: darkblue;
+}
+.details .title {
+    font-size: 15px;
+    font-weight: 400;
+    color: gray;
+}
+.details img {
+    margin-top: -20px;
+}
+.details img {
+    width: 600px;
+    margin-bottom: 45px;
+}
+.figures {
+    display: flex;
+    box-shadow: 0px 0px 20px 2px rgb(219, 219, 219);
+}
+.nums {
+    height: 120px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+.nums span {
+    font-size: 50px;
+    font-weight: lighter;
+}
+#mid {
+    border-left: 1px solid rgb(219, 219, 219);
+    border-right: 1px solid rgb(219, 219, 219);
+}
+.register .title {
+    color: gray;
+}
+.register h1 {
+    color: navy;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+.register .cards {
+    height: 300px;
+    width: 250px;
+    padding: 25px;
+    background-color: rgb(243, 243, 243);
+    border-bottom: 2px solid navy;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.register {
+    margin-bottom: 100px;
+}
+.register i {
+    font-size: 70px;
+    color: navy;
+    margin-bottom: 25px;
+}
+.register .name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.register span {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    font-size: 30px;
+    transform: translate(50%, 50%);
+    color: rgb(219, 219, 219);
+    background-color: white;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 1px rgb(243, 243, 243);
+}
+.about {
+    background-image: url("../images/01.jpg");
+    height: 500px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+.about .cards {
+    width: 100%;
+    background-color: white;
+    padding: 40px;
+    
+}
+.about .cards .title {
+    color: navy;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.about .cards .active {
+    text-decoration: underline;
+}
+.active .cards i{
+    font-size: 20px;
+    font-weight: bolder;
+    color: navy;
+}
