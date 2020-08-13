@@ -160,6 +160,7 @@ nav a,nav a:hover {
     display: flex;
     align-items: center;
     font-weight: 500;
+    margin-bottom: 100px;
 }
 .about .cards {
     width: 100%;
@@ -180,4 +181,82 @@ nav a,nav a:hover {
     font-size: 20px;
     font-weight: bolder;
     color: navy;
+}
+.global .data{
+    height: 500px;
+    margin-left: 50px;
+}
+#marine {
+    background-image: url("../images/ww.jpg");
+    background-position: center;
+}
+.global .data h5 {
+    color: lightgray;
+}
+.global .data h6, .global .data p {
+    color: gray;
+}
+.global .data h1 {
+    color: navy;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.global .data ul {
+    list-style: none;
+    font-weight: bold;
+}
+.global .data li {
+    margin-bottom: 10px;
+}
+.global .data ul i  {
+    background-color: yellowgreen;
+    color: white;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+.global .banner {
+    padding: 30px;
+    background-color: yellowgreen;
+    color: white;
+}
+.global .banner .btn-light {
+    width: 150px;
+    color: navy;
+    font-weight: bold;
+}
+footer {
+    background-color: rgb(0, 20, 40);
+    color: lightgray;
+    height: 500px;
+    padding: 70px;
+}
+footer .btn {
+    background-color: transparent;
+    color: lightgray;
+    padding: 15px 20px;
+    border: 1px solid lightgray;
+}
+footer img {
+    height: 75px;
+}
+footer a, a:hover {
+    color: white;
+
+}
+footer address {
+    line-height: 35px;
+}
+.footer {
+    background-color: rgb(0, 20, 40);
+    color: lightgray;
+    /* border-top: 1px solid rgb(179, 179, 179); */
+    padding: 30px;
+}
+hr {
+    padding: 0%;
+    margin: 0%;
+    background-color:rgba(128, 128, 128, 0.5);
 }
