@@ -8,26 +8,27 @@ header {
     color: whitesmoke;
     padding: 15px;
 }
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-header .container  i {
+header .container-fluid  i {
     color: yellowgreen;
     padding: 10px;
 }
 .active, .active:hover {
     color: yellowgreen;
 }
-nav .container {
-    font-size: 20px;
+nav {
     font-weight: 500;
     height: 100px;
+    display: flex;
+    align-items: center;
 }
 nav a,nav a:hover {
     color: black;
-    padding: 50px 20px;
+}
+nav .navbar-toggler {
+    border: 1px solid black;
+}
+nav .fa-navicon{
+    background-color: black;
 }
 .btn-success {
     background-color: yellowgreen;
@@ -37,11 +38,11 @@ nav a,nav a:hover {
     font-weight: 500;   
 }
 .carousel .carousel-inner{
-    height: 70vh;
+    height: 500px;
     display: flex;
     align-items: center;
 }
-.slideshow {
+#slideshow {
     position: relative;
 }
 .overlay {
@@ -82,9 +83,7 @@ nav a,nav a:hover {
 }
 .details img {
     margin-top: -20px;
-}
-.details img {
-    width: 600px;
+    width: 100%;
     margin-bottom: 45px;
 }
 .figures {
@@ -119,7 +118,7 @@ nav a,nav a:hover {
     padding: 25px;
     background-color: rgb(243, 243, 243);
     border-bottom: 2px solid navy;
-    margin-right: 30px;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -141,6 +140,7 @@ nav a,nav a:hover {
     margin-bottom: 20px;
 }
 .register span {
+    z-index: 5;
     position: absolute;
     bottom: 0;
     right: 50%;
@@ -183,12 +183,12 @@ nav a,nav a:hover {
     color: navy;
 }
 .global .data{
-    height: 500px;
     margin-left: 50px;
 }
 #marine {
     background-image: url("../images/ww.jpg");
     background-position: center;
+    height: 600px;
 }
 .global .data h5 {
     color: lightgray;
@@ -230,7 +230,6 @@ nav a,nav a:hover {
 footer {
     background-color: rgb(0, 20, 40);
     color: lightgray;
-    height: 500px;
     padding: 70px;
 }
 footer .btn {
@@ -244,7 +243,7 @@ footer img {
 }
 footer a, a:hover {
     color: white;
-
+    
 }
 footer address {
     line-height: 35px;
@@ -259,4 +258,10 @@ hr {
     padding: 0%;
     margin: 0%;
     background-color:rgba(128, 128, 128, 0.5);
+}
+
+@media only screen and (max-width: 600px) {
+    .details img {
+        margin-top: 10px;
+    }
 }
